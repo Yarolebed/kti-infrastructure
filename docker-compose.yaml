@@ -12,7 +12,7 @@ services:
       - flask
 
   flask:
-    image: "lebedevja/flask:1.1"
+    image: "lebedevja/flask:1.0"
     container_name: flask
     environment:
       - FLASK_DEBUG=True
